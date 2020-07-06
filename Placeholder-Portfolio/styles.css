@@ -1,0 +1,180 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+hr {
+    border: dotted #d9d9d9 15px;
+    border-bottom: none;
+    margin-top: 6%;
+    width: 10%;
+
+}
+
+#title {
+    background-color: #3d405b;
+}
+
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    color: #3d405b;
+    font-size: 3.5rem;
+}
+
+.h1-white,
+.h2-white {
+    color: white;
+}
+
+h2,p {
+    letter-spacing: 0.1rem;
+    line-height: 1.6;
+    color: #3d405b;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+#title h1 {
+    font-size: 5.625rem;
+}
+
+.header-text{
+    text-align: left;
+}
+
+#title h2 {
+    color: #f7ede2;
+}
+
+
+.title-image {
+    max-width: 90%;
+}
+
+.social {
+    color: white;
+    margin-right: 3%;
+
+}
+
+.social:hover {
+    color: #f7bd60;
+    transition: 0.4s;
+
+}
+/* sections */
+#short-bio,
+#skills, #contact-me {
+    background-color: #f4f1de;
+    padding: 2% 0;
+}
+
+.text-bio {
+    margin: 0 25%;
+}
+
+span {
+    font-weight: 700;
+    color: #e07a5f;
+}
+
+.skill-set {
+    margin: 8% 0;
+}
+
+.mobile-view{
+    display:none;
+}
+
+.skill-text-set-right {
+    text-align: left;
+    padding-right: 10%;
+}
+
+.skill-text-set-left{
+    text-align: left;
+    padding-left: 15%;
+
+}
+
+.skill-text {
+
+    font-weight: 700;
+
+}
+
+.skills-images {
+    max-width: 50%;
+}
+
+.skill-set-images-right {
+    text-align: right;
+}
+
+.skill-set-images-left{
+    text-align: left;
+} 
+
+.cv-text, .contact-text{
+    margin:0 32%;
+}
+
+.contact-description{
+    margin: 0 28%;
+}
+
+.message-button{
+ color: #f7ede2 ;
+}
+
+footer{
+    background-color: #3d405b;
+    padding:5% 0;
+}
+
+footer p{
+    color: white;
+    font-size: 1rem;
+}
+
+/* media query 1 */
+
+@media(max-width:1000px){
+    .header-text{
+        text-align: center;
+        padding:0;
+    }
+
+    .icons{
+        margin-bottom: 8%;
+    }
+
+    .text-bio,.contact-text,.contact-description, .cv-text{
+        margin: 0 6px;
+    }
+
+    .skill-text-set-right, .skill-text-set-left, .skill-set-images-right, .skill-set-images-left{
+        text-align: center;
+        padding:0;
+    }
+
+    .desktop-view{
+        display: none;
+    }
+
+    .mobile-view{
+        display: inline;
+    }
+
+
+}
+/* media query 2
+@media(max-width:500px){
+    .navbar-brand{
+        display:none;
+    }
+} */
