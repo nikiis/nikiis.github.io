@@ -28,13 +28,14 @@ h1 {
     color: white;
 }
 
-h2,p {
+h2,
+p {
     letter-spacing: 0.1rem;
     line-height: 1.6;
     color: #3d405b;
 }
 
-p{
+p {
     font-size: 1.3rem;
 }
 
@@ -42,7 +43,7 @@ p{
     font-size: 5.625rem;
 }
 
-.header-text{
+.header-text {
     text-align: left;
 }
 
@@ -66,9 +67,11 @@ p{
     transition: 0.4s;
 
 }
+
 /* sections */
 #short-bio,
-#skills, #contact-me {
+#skills,
+#contact-me {
     background-color: #f4f1de;
     padding: 2% 0;
 }
@@ -86,8 +89,8 @@ span {
     margin: 8% 0;
 }
 
-.mobile-view{
-    display:none;
+.mobile-view {
+    display: none;
 }
 
 .skill-text-set-right {
@@ -95,7 +98,7 @@ span {
     padding-right: 10%;
 }
 
-.skill-text-set-left{
+.skill-text-set-left {
     text-align: left;
     padding-left: 15%;
 
@@ -115,66 +118,71 @@ span {
     text-align: right;
 }
 
-.skill-set-images-left{
+.skill-set-images-left {
     text-align: left;
-} 
-
-.cv-text, .contact-text{
-    margin:0 32%;
 }
 
-.contact-description{
+.cv-text,
+.contact-text {
+    margin: 0 32%;
+}
+
+.contact-description {
     margin: 0 28%;
 }
 
-.message-button{
- color: #f7ede2 ;
+.message-button {
+    color: #f7ede2;
 }
 
-footer{
+footer {
     background-color: #3d405b;
-    padding:5% 0;
+    padding: 5% 0;
 }
 
-footer p{
+footer p {
     color: white;
     font-size: 1rem;
 }
 
 /* media query 1 */
 
-@media(max-width:1000px){
-    .header-text{
+@media(max-width:1000px) {
+    .header-text {
         text-align: center;
-        padding:0;
+        padding: 0;
     }
 
-    .icons{
+    .icons {
         margin-bottom: 8%;
     }
 
-    .text-bio,.contact-text,.contact-description, .cv-text{
+    .text-bio,
+    .contact-text,
+    .contact-description,
+    .cv-text {
         margin: 0 6px;
     }
 
-    .skill-text-set-right, .skill-text-set-left, .skill-set-images-right, .skill-set-images-left{
+    .skill-text-set-right,
+    .skill-text-set-left,
+    .skill-set-images-right,
+    .skill-set-images-left {
         text-align: center;
-        padding:0;
+        padding: 0;
     }
 
-    .desktop-view{
+    .desktop-view {
         display: none;
     }
 
-    .mobile-view{
+    .mobile-view {
         display: inline;
+    }
+
+    .skill-text {
+        margin: 3% 0;
     }
 
 
 }
-/* media query 2
-@media(max-width:500px){
-    .navbar-brand{
-        display:none;
-    }
-} */
